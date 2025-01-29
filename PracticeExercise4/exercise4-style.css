@@ -1,0 +1,78 @@
+@import "../css/colors.css";
+
+body {
+    font-family: 'Chivo', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container, .output-container {
+    background: white;
+    padding: 4rem;
+    margin: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 40%;
+    text-align: left;
+}
+
+
+h2 {
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--secondary);
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 48%;
+    display: inline-block;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: var(--primary);
+}
+
+/* Output Section */
+.output-container {
+    text-align: left;
+}
+
+b {
+    color: var(--primary);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .form-container, .output-container {
+        width: 90%;
+    }
+}
