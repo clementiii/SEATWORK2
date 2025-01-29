@@ -1,0 +1,67 @@
+@import '../css/colors.css';
+
+:root {
+    --text: #09110f;
+    --background: #f8fcfb;
+    --primary: #5664ac;
+    --secondary: #92a3c8;
+    --accent: #504b95;
+}
+
+body {
+    font-family: 'Chivo', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--primary);
+}
+
+h3 {
+    color: var(--secondary);
+}
+
+.error {
+    color: #FF0000;
+}
+
+input[type="textbox"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    width: 300px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: var(--accent);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+span.error {
+    font-size: 12px;
+}

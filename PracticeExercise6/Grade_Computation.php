@@ -1,13 +1,11 @@
 <?php
-       //Script name: Grade_Computation.php
+    //Script name: Grade_Computation.php
 ?>
 <html>
   <head>
       <title>Grade Computation</title>
-         <style>
-             .error {color: #FF0000;}
-        </style>
-   </head>
+      <link rel="stylesheet" type="text/css" href="exercise6-style.css">
+  </head>
 
 <body>
 <?php
