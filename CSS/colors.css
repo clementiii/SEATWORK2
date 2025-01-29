@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap');
+
+:root {
+    --text: #09110f;
+    --background: #f8fcfb;
+    --primary: #5664ac;
+    --secondary: #92a3c8;
+    --accent: #504b95;
+}

@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ELECTIVE 2 SEATWORK 2 </title>
+    <title>ELEC2 - SEATWORK 2 </title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>SEATWORK 2</h1>
-            <p class="subtitle">Made by: Adizon, Exequel and Cabus, Clement</p>
+            <h1>ELEC2 - SEATWORK 2</h1>
         </header>
 
         <main class="exercises-grid">
@@ -74,6 +76,10 @@
                 </div>
             </div>
         </main>
+
+        <footer>
+            <p class="footer-text">Adizon, Exequel | Cabus Clement</p>
+        </footer>
     </div>
 </body>
 </html>
