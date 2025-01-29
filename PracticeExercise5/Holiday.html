@@ -1,22 +1,29 @@
 <html> 
-	<head> 
-		<title> PAPSI Holidays </title> 
-	</head>
-<body bgcolor="pink">
-	<h2> PAPSI Holidays </h2>
-	<h3> Reservation Form </h3>
-	<form action="Holiday.php" method="post">
-		<b> DESINATION </b> <br>
-		Choose here: <br>
-		<input type="radio" name="rdoDestination" value="HongKong" checked="TRUE"> HongKong <br>
-		<input type="radio" name="rdoDestination" value="Singapore"> Singapore <br>
-		<input type="radio" name="rdoDestination" value="Malaysia"> Malaysia <br> <br> 
-		<b> HOTEL TYPE </b> <br> 
-		Choose here: <br>
-		<input type="radio" name="rdoHotel" value="three" checked="TRUE"> Three Star <br>
-		<input type="radio" name="rdoHotel" value="five"> Five Star <br>
-		<input type="submit" value="Reserve">
-		<input type="reset" value="Clear">
-	</form>
-</body>
+   <head> 
+      <title> PAPSI Holidays </title>
+      <link rel="stylesheet" type="text/css" href="exercise5-style.css">
+   </head>
+   <body>
+      <h2> PAPSI Holidays </h2>
+      <h3> Reservation Form </h3>
+      <form action="Holiday.php" method="post">
+         <div class="input-group">
+            <b>DESTINATION</b><br>
+            Choose here: <br>
+            <input type="radio" name="rdoDestination" value="HongKong" checked="TRUE"> Hong Kong <br>
+            <input type="radio" name="rdoDestination" value="Singapore"> Singapore <br>
+            <input type="radio" name="rdoDestination" value="Malaysia"> Malaysia <br><br>
+         </div>
+
+         <div class="input-group">
+            <b>HOTEL TYPE</b><br> 
+            Choose here: <br>
+            <input type="radio" name="rdoHotel" value="three" checked="TRUE"> Three Star <br>
+            <input type="radio" name="rdoHotel" value="five"> Five Star <br><br>
+         </div>
+
+         <input type="submit" value="Reserve">
+         <input type="reset" value="Clear">
+      </form>
+   </body>
 </html>

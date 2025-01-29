@@ -1,0 +1,81 @@
+
+@import "../css/colors.css";
+
+/* General styles */
+body {
+   font-family: 'Chivo', sans-serif;
+   background-color: var(--background);
+   color: var(--text);
+   text-align: center;
+   padding: 50px;
+}
+
+h2 {
+   color: var(--primary);
+}
+
+h3 {
+   color: var(--secondary);
+}
+
+form {
+   background-color: white;
+   border-radius: 8px;
+   padding: 3rem;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   width: 300px;
+   margin: 20px auto;
+}
+b {
+   font-size: 1.2em;
+   font-weight: bold;
+}
+
+.input-group {
+   margin-bottom: 15px;
+}
+
+input[type="radio"] {
+   margin-right: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+   background-color: var(--primary);
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 1.1em;
+   margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+   background-color: var(--accent);
+}
+
+.result {
+   background-color: white;
+   border-radius: 8px;
+   padding: 3rem;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   width: 300px;
+   margin: 20px auto;
+}
+
+.btn {
+   background-color: var(--primary);
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 1.1em;
+   text-decoration: none;
+}
+
+.btn:hover {
+   background-color: var(--accent);
+}
