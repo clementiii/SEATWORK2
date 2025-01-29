@@ -1,0 +1,55 @@
+<html> 
+	<head> 
+		<title> Use of Input Types Form Tag in PHP </title> 
+	</head>
+<body bgcolor="99ffff">
+<form action="Input_Types_Output.php" method="post">
+	<b> TextFields </b> <br>
+	Enter Your Name: 
+	<input type="text" name="txtName" placeholder="Last, First Middle"> <br>
+	Enter Your Age: <input type="text" name="txtAge"> <br>
+	Enter Your course: <input type="text" name="txtCourse"> <br> <br>
+	
+	<b> Checkbox </b> <br>
+	Are you an officer of COMSOC?<br>
+	<input type="checkbox" name="chkYes"> Yes  <br> <br>
+	
+	<b> Multiple Checkboxes </b> <br>
+	What is/are your favorite computer subject/s: <br>
+	<input type="checkbox" name="chkCP" value="Computer Programming"> Computer Programming <br>
+	<input type="checkbox" name="chkCG" value="Computer Graphics"> Computer Graphics <br>
+	<input type="checkbox" name="chkWBA" value="Web Based Application"> Web Based Application 
+	<br> <br> 
+	
+	<b> Radio Buttons </b> <br> 
+	Which do you prefer most? <br>
+	<input type="radio" name="rdo" value="Microsoft" checked="TRUE"> Microsoft <br>
+	<input type="radio" name="rdo" value="Open Source"> Open Source <br>
+	<input type="radio" name="rdo" value="No comment"> No comment <br> <br> 
+	
+	<b> Combo Boxes </b> <br> 
+	What job do you prefer after graduation?  <br>
+	<select name="cboJob">
+		<option> Call Center Agent </option> 
+		<option> Programmer / Analyst </option> 
+		<option> Office Employee </option> 
+		<option> Computer Instructor </option> 
+	</select> <br> <br>
+	
+	<b> List Boxes </b> <br> 
+	Which do you prefer for a thesis topic/title? <br>
+	<select name="lstThesisTitle" multiple>
+		<option> Web Based/On-Line Application </option> 
+		<option> Network-Based Application </option> 
+		<option> System/Software Development </option> 
+		<option> Computer Aided Instruction </option> 
+	</select> <br> <br>
+
+	<b> TextArea </b> <br>
+	Enter comments here: <br>
+	<textarea name="txtaComments" cols="50" rows="5"> </textarea> <br> <br>
+	<input type="submit" value="See Results">
+	<input type="reset" value="Clear">
+</form>
+</body>
+</html>
