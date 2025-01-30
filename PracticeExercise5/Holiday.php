@@ -55,7 +55,7 @@
             }
          ?>
          <br><br>
-         <a href="index.html" class="btn">Make Another Reservation</a>
+         <a href="Holiday.html" class="btn">Make Another Reservation</a>
       </div>
    </body>
 </html>

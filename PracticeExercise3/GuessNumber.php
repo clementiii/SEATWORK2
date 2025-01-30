@@ -33,7 +33,7 @@ $num = rand(1,10); //or you can set a fixed number, e.g. $num=5;
         }
         ?>
 
-        <a href="GuessNumberForm.php" class="back-button">Try Again</a>
+        <a href="/SEATWORK2/index.php" class="back-button">Go Back</a>
     </div>
 
 </body>
