@@ -4,12 +4,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Use of HTML Form Tags in PHP</title> 
+    <title>Use of HTML Form Tags in PHP</title>
     <link rel="stylesheet" href="exercise4-style.css">
 </head>
+
 <body>
 
     <div class="output-container">
@@ -40,9 +42,12 @@
         echo "<div class='section'>
                 <b>Multiple Checkboxes Output</b><br>";
         echo "Your favorite computer subject/s are:<br>";
-        if (isset($_POST['chkCP'])) echo "Computer Programming<br>";
-        if (isset($_POST['chkCG'])) echo "Computer Graphics<br>";
-        if (isset($_POST['chkWBA'])) echo "Web Based Application<br><br>";
+        if (isset($_POST['chkCP']))
+            echo "Computer Programming<br>";
+        if (isset($_POST['chkCG']))
+            echo "Computer Graphics<br>";
+        if (isset($_POST['chkWBA']))
+            echo "Web Based Application<br><br>";
         echo "</div>";
 
         echo "<div class='section'>
@@ -56,12 +61,15 @@
               </div>";
 
         echo "<div class='section'>
-                <b>ListBox Output</b><br>
-                Your preferred thesis title(s) are:<br>";
-        if (isset($_POST['lstThesisTitle']))
-            echo implode(", ", $_POST['lstThesisTitle']);
-        else
+        <b>ListBox Output</b><br>
+        Your preferred thesis title(s) are:<br>";
+        if (isset($_POST['lstThesisTitle'])) {
+            // Ensure $_POST['lstThesisTitle'] is an array
+            $thesisTitles = (array) $_POST['lstThesisTitle'];
+            echo implode(", ", $thesisTitles);
+        } else {
             echo "None<br><br>";
+        }
         echo "</div>";
 
         echo "<div class='section'>
@@ -73,4 +81,5 @@
     </div>
 
 </body>
+
 </html>
