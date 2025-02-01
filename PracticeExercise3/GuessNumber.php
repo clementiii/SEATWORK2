@@ -1,7 +1,7 @@
 <?php
 // Script name: GuessNumber.php
 $guess = $_POST['guess'];
-$num = rand(1,10); //or you can set a fixed number, e.g. $num=5;
+$num = rand(1,10); 
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ $num = rand(1,10); //or you can set a fixed number, e.g. $num=5;
         }
         ?>
 
-        <a href="GuessNumberForm.php" class="back-button">Try Again</a>
+        <a href="GuessNumber.html" class="back-button">Try Again</a>
     </div>
 
 </body>
